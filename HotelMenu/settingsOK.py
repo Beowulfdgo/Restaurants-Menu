@@ -78,13 +78,8 @@ WSGI_APPLICATION = 'HotelMenu.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        'HOST': 'ec2-44-199-85-33.compute-1.amazonaws.com',
-        'USER':'iaddcmznhesekw',
-        'PASSWORD':'e2cfd91ee365a223bc0a145f47f28a8af982917fcfaa16c030691112bbb973c5',
-        'PORT':'5432'
-
     }
 }
 
