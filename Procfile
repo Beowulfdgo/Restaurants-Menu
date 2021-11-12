@@ -1,1 +1,1 @@
-web: python runserver 0.0.0.0:SPORT
+web: gunicorn restaurantpapichulos.wsgi --log-file -
